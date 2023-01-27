@@ -1,0 +1,2135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile version="1">
+    <node_assets>
+        <rigid_body version="1.1" id="8737e3391809084:6f7ebb659ca211ed">
+            <markers>
+                <marker active_id="0">
+                    <position>-0.0658528,0.00975588,-0.701774</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0100213,-0.0244663,-0.515945</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0166453,0.0244212,0.511388</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0592287,-0.00971085,0.706331</position>
+                    <size>0.02</size>
+                    <label_id>4</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Staff_XL" default_value="Staff_XL"/>
+                <property name="NodeVisible" value="false"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4294934766" default_value="4294934766"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <marker name="Marker4" old_name="Marker4"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <marker name="Marker4" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e3391809084:78b247339ca211ed">
+            <markers>
+                <marker active_id="0">
+                    <position>0.0190491,0.016465,-0.608384</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0353413,-0.0157865,-0.421378</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0135767,-0.0137047,0.493139</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0105891,-0.0124096,0.675456</position>
+                    <size>0.02</size>
+                    <label_id>4</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.00787348,0.0254359,-0.138834</position>
+                    <size>0.02</size>
+                    <label_id>5</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Staff_L" default_value="Staff_L"/>
+                <property name="NodeVisible" value="false"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4294965414" default_value="4294965414"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="2" default_value="2"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <marker name="Marker4" old_name="Marker4"/>
+                <marker name="Marker5" old_name="Marker5"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <marker name="Marker4" color="1 1 1" movable="false"/>
+                <marker name="Marker5" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e3391809084:9f92af0b9ca211ed">
+            <markers>
+                <marker active_id="0">
+                    <position>0.0349753,-0.00258704,-0.166157</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0248109,0.00311706,0.24843</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.00143384,0.0193675,0.00301664</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0583524,-0.0198976,-0.08529</position>
+                    <size>0.02</size>
+                    <label_id>4</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Rifle" default_value="Rifle"/>
+                <property name="NodeVisible" value="false"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4286644159" default_value="4286644159"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="3" default_value="3"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <marker name="Marker4" old_name="Marker4"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <marker name="Marker4" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e3391809084:cc1ac3459ca211ed">
+            <markers>
+                <marker active_id="0">
+                    <position>0.0465283,-0.0102346,-0.1604</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.13602,0.00803174,-0.109514</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0159458,0.00152079,0.0210237</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0735458,0.000682054,0.24889</position>
+                    <size>0.02</size>
+                    <label_id>4</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Axe" default_value="Axe"/>
+                <property name="NodeVisible" value="false"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4294901982" default_value="4294901982"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="4" default_value="4"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <marker name="Marker4" old_name="Marker4"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <marker name="Marker4" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e3391809084:d93cc79a9ca211ed">
+            <markers>
+                <marker active_id="0">
+                    <position>0.0461542,-0.00822337,0.0873941</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0530634,-0.0125846,-0.0560136</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.00690921,0.020808,-0.0313805</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Pistol1" default_value="Pistol1"/>
+                <property name="NodeVisible" value="false"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4286620671" default_value="4286620671"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="5" default_value="5"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e3391809084:d93cc8529ca211ed">
+            <markers>
+                <marker active_id="0">
+                    <position>-0.0818809,-0.0102864,-0.0633506</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0365113,0.0214456,-0.0366965</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0453695,-0.0111592,0.100047</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Pistol2" default_value="Pistol2"/>
+                <property name="NodeVisible" value="false"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4294961920" default_value="4294961920"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="6" default_value="6"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e3391809084:e074cd359ca211ed">
+            <markers>
+                <marker active_id="0">
+                    <position>0.0397521,-0.00518807,0.0982672</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.00211202,0.0198969,-0.0121778</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.00864321,-0.00804745,-0.145514</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0289969,-0.00666138,0.0594249</position>
+                    <size>0.02</size>
+                    <label_id>4</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Paddle" default_value="Paddle"/>
+                <property name="NodeVisible" value="false"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4289200274" default_value="4289200274"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="7" default_value="7"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <marker name="Marker4" old_name="Marker4"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <marker name="Marker4" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e3391809084:9399817e9caf11ed">
+            <markers>
+                <marker active_id="0">
+                    <position>-0.0120408,0.121907,-0.0168927</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0858268,-0.137053,-0.0292389</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0978676,0.0151458,0.0461316</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Bicycle" default_value="Bicycle"/>
+                <property name="NodeVisible" value="false"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4278255487" default_value="4278255487"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="8" default_value="8"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e3391809084:9dac52bb9caf11ed">
+            <markers>
+                <marker active_id="0">
+                    <position>-0.168554,0.141396,0.0928291</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.151184,-0.407448,-0.101397</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0455454,0.177539,0.00804514</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0281757,0.0885125,0.000522599</position>
+                    <size>0.02</size>
+                    <label_id>4</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Bicycle Handle" default_value="Bicycle Handle"/>
+                <property name="NodeVisible" value="false"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4278217471" default_value="4278217471"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="9" default_value="9"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <marker name="Marker4" old_name="Marker4"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <marker name="Marker4" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e3391809084:d3e52b469cb711ed">
+            <markers>
+                <marker active_id="0">
+                    <position>-0.0386767,-0.0166433,-0.694851</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.00626123,-0.00443364,0.521683</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0277919,-0.0174622,-0.544479</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.017146,0.0385392,0.717647</position>
+                    <size>0.02</size>
+                    <label_id>4</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="sttaf" default_value="sttaf"/>
+                <property name="NodeVisible" value="false"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4294965414" default_value="4294965414"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="10" default_value="10"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <marker name="Marker4" old_name="Marker4"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <marker name="Marker4" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e3391809084:4b7a3dd29d9d11ed">
+            <markers>
+                <marker active_id="0">
+                    <position>-0.00404748,0.0256383,0.521561</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.022083,-0.0116105,0.719211</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.00831334,0.0144659,-0.695518</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0263488,-0.0284937,-0.545254</position>
+                    <size>0.02</size>
+                    <label_id>4</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="MagnumStaff" default_value="MagnumStaff"/>
+                <property name="NodeVisible" value="false"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4294965414" default_value="4294965414"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="11" default_value="11"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <marker name="Marker4" old_name="Marker4"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <marker name="Marker4" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <skeleton version="1000" id="8737e3391809284:dc9e8f7e9e6011ed">
+            <properties>
+                <property name="NodeName" value="Skelly" default_value="Skelly"/>
+                <property name="JointType" value="Root"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="TranslationOffset" value="-0,1.01269,0"/>
+                <property name="AssetHeight" value="1.849688"/>
+                <property name="DofsVersion" value="1.0"/>
+                <property name="SkeletonMarkersetType" value="-41"/>
+                <property name="Color" value="4278190335" default_value="4278190335"/>
+                <property name="SkeletonCreationPose" value="T-Pose"/>
+                <property name="StraighArms" value="true"/>
+                <property name="StraightLegs" value="false"/>
+                <property name="FeetOnFloor" value="false"/>
+                <property name="FloorHeight" value="0.000000"/>
+                <property name="HeadUpright" value="false"/>
+                <property name="HeightMarker" value="false"/>
+                <property name="AdjustSpineByWrist" value="false"/>
+                <property name="NeckLength" value="-1.000000"/>
+                <property name="ShoulderHorzOffset" value="0.040000"/>
+                <property name="ShoulderLengthAdd" value="0.000000"/>
+                <property name="AnkleHeight" value="0.000000"/>
+                <property name="ShoulderVertOffset" value="0.020000"/>
+                <property name="ShoulderAngle" value="20.000000"/>
+                <property name="ArmVertOffset" value="0.010000"/>
+            </properties>
+            <joints>
+                <joint id="8737e3391809284:dc9e8f809e6011ed" parent_name="Skelly">
+                    <properties>
+                        <property name="NodeName" value="Ab" default_value="Ab"/>
+                        <property name="JointType" value="SpineRoot"/>
+                        <property name="DegreesOfFreedom" value="26"/>
+                        <property name="TranslationOffset" value="-0,0.0842636,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f819e6011ed" parent_name="Ab">
+                    <properties>
+                        <property name="NodeName" value="Chest" default_value="Chest"/>
+                        <property name="JointType" value="SpineEnd"/>
+                        <property name="DegreesOfFreedom" value="58"/>
+                        <property name="TranslationOffset" value="-0,0.197495,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f829e6011ed" parent_name="Chest">
+                    <properties>
+                        <property name="NodeName" value="Neck" default_value="Neck"/>
+                        <property name="JointType" value="Neck"/>
+                        <property name="DegreesOfFreedom" value="58"/>
+                        <property name="TranslationOffset" value="-0,0.218047,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f839e6011ed" parent_name="Neck">
+                    <properties>
+                        <property name="NodeName" value="Head" default_value="Head"/>
+                        <property name="JointType" value="Head"/>
+                        <property name="DegreesOfFreedom" value="58"/>
+                        <property name="TranslationOffset" value="-0,0.159279,0.0205521"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f849e6011ed" parent_name="Chest">
+                    <properties>
+                        <property name="NodeName" value="LShoulder" default_value="LShoulder"/>
+                        <property name="JointType" value="LShoulder"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.0409126,0.159293,-0.00381624"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f859e6011ed" parent_name="LShoulder">
+                    <properties>
+                        <property name="NodeName" value="LUArm" default_value="LUArm"/>
+                        <property name="JointType" value="LUpperArm"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.0845873,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f869e6011ed" parent_name="LUArm">
+                    <properties>
+                        <property name="NodeName" value="LFArm" default_value="LFArm"/>
+                        <property name="JointType" value="LForearm"/>
+                        <property name="DegreesOfFreedom" value="24"/>
+                        <property name="TranslationOffset" value="0.358716,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f879e6011ed" parent_name="LFArm">
+                    <properties>
+                        <property name="NodeName" value="LHand" default_value="LHand"/>
+                        <property name="JointType" value="LHand"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.249452,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f949e6011ed" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LThumb1" default_value="LThumb1"/>
+                        <property name="JointType" value="LThumb1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOffset" value="0.366723,-0.264033,0.109366,0.885347"/>
+                        <property name="TranslationOffset" value="0.0214769,-0.0244056,0.0341679"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f959e6011ed" parent_name="LThumb1">
+                    <properties>
+                        <property name="NodeName" value="LThumb2" default_value="LThumb2"/>
+                        <property name="JointType" value="LThumb2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOffset" value="0,0.202082,-0.202082,0.958293"/>
+                        <property name="TranslationOffset" value="0.0324377,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f969e6011ed" parent_name="LThumb2">
+                    <properties>
+                        <property name="NodeName" value="LThumb3" default_value="LThumb3"/>
+                        <property name="JointType" value="LThumb3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="TranslationOffset" value="0.0277248,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f989e6011ed" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LIndex1" default_value="LIndex1"/>
+                        <property name="JointType" value="LIndex1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="0.0878602,0,0.0341679"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f999e6011ed" parent_name="LIndex1">
+                    <properties>
+                        <property name="NodeName" value="LIndex2" default_value="LIndex2"/>
+                        <property name="JointType" value="LIndex2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0488112,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f9a9e6011ed" parent_name="LIndex2">
+                    <properties>
+                        <property name="NodeName" value="LIndex3" default_value="LIndex3"/>
+                        <property name="JointType" value="LIndex3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0244056,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f9c9e6011ed" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LMiddle1" default_value="LMiddle1"/>
+                        <property name="JointType" value="LMiddle1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0878602,0,0.0113242"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f9d9e6011ed" parent_name="LMiddle1">
+                    <properties>
+                        <property name="NodeName" value="LMiddle2" default_value="LMiddle2"/>
+                        <property name="JointType" value="LMiddle2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0536923,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f9e9e6011ed" parent_name="LMiddle2">
+                    <properties>
+                        <property name="NodeName" value="LMiddle3" default_value="LMiddle3"/>
+                        <property name="JointType" value="LMiddle3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0292867,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fa09e6011ed" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LRing1" default_value="LRing1"/>
+                        <property name="JointType" value="LRing1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0829791,0,-0.0113242"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fa19e6011ed" parent_name="LRing1">
+                    <properties>
+                        <property name="NodeName" value="LRing2" default_value="LRing2"/>
+                        <property name="JointType" value="LRing2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0488112,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fa29e6011ed" parent_name="LRing2">
+                    <properties>
+                        <property name="NodeName" value="LRing3" default_value="LRing3"/>
+                        <property name="JointType" value="LRing3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0244056,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fa49e6011ed" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LPinky1" default_value="LPinky1"/>
+                        <property name="JointType" value="LPinky1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="-0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="0.0780979,0,-0.0341679"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fa59e6011ed" parent_name="LPinky1">
+                    <properties>
+                        <property name="NodeName" value="LPinky2" default_value="LPinky2"/>
+                        <property name="JointType" value="LPinky2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.039049,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fa69e6011ed" parent_name="LPinky2">
+                    <properties>
+                        <property name="NodeName" value="LPinky3" default_value="LPinky3"/>
+                        <property name="JointType" value="LPinky3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0195245,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f889e6011ed" parent_name="Chest">
+                    <properties>
+                        <property name="NodeName" value="RShoulder" default_value="RShoulder"/>
+                        <property name="JointType" value="RShoulder"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.0409126,0.159293,-0.00381624"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f899e6011ed" parent_name="RShoulder">
+                    <properties>
+                        <property name="NodeName" value="RUArm" default_value="RUArm"/>
+                        <property name="JointType" value="RUpperArm"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.0845873,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f8a9e6011ed" parent_name="RUArm">
+                    <properties>
+                        <property name="NodeName" value="RFArm" default_value="RFArm"/>
+                        <property name="JointType" value="RForearm"/>
+                        <property name="DegreesOfFreedom" value="24"/>
+                        <property name="TranslationOffset" value="-0.358716,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f8b9e6011ed" parent_name="RFArm">
+                    <properties>
+                        <property name="NodeName" value="RHand" default_value="RHand"/>
+                        <property name="JointType" value="RHand"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.249452,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fa89e6011ed" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RThumb1" default_value="RThumb1"/>
+                        <property name="JointType" value="RThumb1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOffset" value="0.366723,0.264033,-0.109366,0.885347"/>
+                        <property name="TranslationOffset" value="-0.0214769,-0.0244056,0.0341679"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fa99e6011ed" parent_name="RThumb1">
+                    <properties>
+                        <property name="NodeName" value="RThumb2" default_value="RThumb2"/>
+                        <property name="JointType" value="RThumb2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOffset" value="0,-0.202082,0.202082,0.958293"/>
+                        <property name="TranslationOffset" value="-0.0324377,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8faa9e6011ed" parent_name="RThumb2">
+                    <properties>
+                        <property name="NodeName" value="RThumb3" default_value="RThumb3"/>
+                        <property name="JointType" value="RThumb3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="TranslationOffset" value="-0.0277248,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fac9e6011ed" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RIndex1" default_value="RIndex1"/>
+                        <property name="JointType" value="RIndex1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="-0.0878602,0,0.0341679"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fad9e6011ed" parent_name="RIndex1">
+                    <properties>
+                        <property name="NodeName" value="RIndex2" default_value="RIndex2"/>
+                        <property name="JointType" value="RIndex2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0488112,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fae9e6011ed" parent_name="RIndex2">
+                    <properties>
+                        <property name="NodeName" value="RIndex3" default_value="RIndex3"/>
+                        <property name="JointType" value="RIndex3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0244056,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fb09e6011ed" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RMiddle1" default_value="RMiddle1"/>
+                        <property name="JointType" value="RMiddle1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0878602,0,0.0113242"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fb19e6011ed" parent_name="RMiddle1">
+                    <properties>
+                        <property name="NodeName" value="RMiddle2" default_value="RMiddle2"/>
+                        <property name="JointType" value="RMiddle2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0536923,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fb29e6011ed" parent_name="RMiddle2">
+                    <properties>
+                        <property name="NodeName" value="RMiddle3" default_value="RMiddle3"/>
+                        <property name="JointType" value="RMiddle3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0292867,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fb49e6011ed" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RRing1" default_value="RRing1"/>
+                        <property name="JointType" value="RRing1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0829791,0,-0.0113242"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fb59e6011ed" parent_name="RRing1">
+                    <properties>
+                        <property name="NodeName" value="RRing2" default_value="RRing2"/>
+                        <property name="JointType" value="RRing2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0488112,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fb69e6011ed" parent_name="RRing2">
+                    <properties>
+                        <property name="NodeName" value="RRing3" default_value="RRing3"/>
+                        <property name="JointType" value="RRing3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0244056,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fb89e6011ed" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RPinky1" default_value="RPinky1"/>
+                        <property name="JointType" value="RPinky1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="-0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="-0.0780979,0,-0.0341679"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fb99e6011ed" parent_name="RPinky1">
+                    <properties>
+                        <property name="NodeName" value="RPinky2" default_value="RPinky2"/>
+                        <property name="JointType" value="RPinky2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.039049,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8fba9e6011ed" parent_name="RPinky2">
+                    <properties>
+                        <property name="NodeName" value="RPinky3" default_value="RPinky3"/>
+                        <property name="JointType" value="RPinky3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0195245,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f8c9e6011ed" parent_name="Skelly">
+                    <properties>
+                        <property name="NodeName" value="LThigh" default_value="LThigh"/>
+                        <property name="JointType" value="LThigh"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.10276,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f8d9e6011ed" parent_name="LThigh">
+                    <properties>
+                        <property name="NodeName" value="LShin" default_value="LShin"/>
+                        <property name="JointType" value="LShin"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.470205,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f8e9e6011ed" parent_name="LShin">
+                    <properties>
+                        <property name="NodeName" value="LFoot" default_value="LFoot"/>
+                        <property name="JointType" value="LFoot"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0,-0.460277,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f8f9e6011ed" parent_name="LFoot">
+                    <properties>
+                        <property name="NodeName" value="LToe" default_value="LToe"/>
+                        <property name="JointType" value="LToe"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.0667943,0.154141"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f909e6011ed" parent_name="Skelly">
+                    <properties>
+                        <property name="NodeName" value="RThigh" default_value="RThigh"/>
+                        <property name="JointType" value="RThigh"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.10276,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f919e6011ed" parent_name="RThigh">
+                    <properties>
+                        <property name="NodeName" value="RShin" default_value="RShin"/>
+                        <property name="JointType" value="RShin"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.470205,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f929e6011ed" parent_name="RShin">
+                    <properties>
+                        <property name="NodeName" value="RFoot" default_value="RFoot"/>
+                        <property name="JointType" value="RFoot"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0,-0.460277,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e3391809284:dc9e8f939e6011ed" parent_name="RFoot">
+                    <properties>
+                        <property name="NodeName" value="RToe" default_value="RToe"/>
+                        <property name="JointType" value="RToe"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.0667943,0.154141"/>
+                    </properties>
+                </joint>
+            </joints>
+            <dofs>
+                <dof name="Skelly_Translation_X">
+                    <elements>
+                        <element joint="Skelly" channel="TX" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Skelly_Translation_Y">
+                    <elements>
+                        <element joint="Skelly" channel="TY" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Skelly_Translation_Z">
+                    <elements>
+                        <element joint="Skelly" channel="TZ" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Skelly_Rotation_X">
+                    <elements>
+                        <element joint="Skelly" channel="RX" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Skelly_Rotation_Y">
+                    <elements>
+                        <element joint="Skelly" channel="RY" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Skelly_Rotation_Z">
+                    <elements>
+                        <element joint="Skelly" channel="RZ" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Ab_Rotation_X">
+                    <elements>
+                        <element joint="Ab" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.85,1</range>
+                    <spring>0.015,0.1</spring>
+                </dof>
+                <dof name="Chest_Rotation_X">
+                    <elements>
+                        <element joint="Chest" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.3,0.9</range>
+                    <spring>0.15,0.3</spring>
+                </dof>
+                <dof name="Chest_Rotation_Z">
+                    <elements>
+                        <element joint="Chest" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.9,0.9</range>
+                    <spring>0.15,0</spring>
+                </dof>
+                <dof name="Neck_Rotation_X">
+                    <elements>
+                        <element joint="Neck" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.3,1.3</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Neck_Rotation_Z">
+                    <elements>
+                        <element joint="Neck" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.1,1.1</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Head_Rotation_X">
+                    <elements>
+                        <element joint="Head" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Head_Rotation_Z">
+                    <elements>
+                        <element joint="Head" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.2,1.2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LShoulder_Rotation_X">
+                    <elements>
+                        <element joint="LShoulder" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.4,0.4</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="LShoulder_Rotation_Y">
+                    <elements>
+                        <element joint="LShoulder" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="LShoulder_Rotation_Z">
+                    <elements>
+                        <element joint="LShoulder" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-0.8,0.6</range>
+                    <spring>0.025,-0.1</spring>
+                </dof>
+                <dof name="RShoulder_Rotation_X">
+                    <elements>
+                        <element joint="RShoulder" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.4,0.4</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="RShoulder_Rotation_Y">
+                    <elements>
+                        <element joint="RShoulder" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="RShoulder_Rotation_Z">
+                    <elements>
+                        <element joint="RShoulder" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.8,0.6</range>
+                    <spring>0.025,-0.1</spring>
+                </dof>
+                <dof name="LUArm_Rotation_X">
+                    <elements>
+                        <element joint="LUArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LUArm_Rotation_Y">
+                    <elements>
+                        <element joint="LUArm" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-2,2.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LUArm_Rotation_Z">
+                    <elements>
+                        <element joint="LUArm" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.8,2.2</range>
+                    <spring>0.004,0.3</spring>
+                </dof>
+                <dof name="RUArm_Rotation_X">
+                    <elements>
+                        <element joint="RUArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RUArm_Rotation_Y">
+                    <elements>
+                        <element joint="RUArm" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-2,2.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RUArm_Rotation_Z">
+                    <elements>
+                        <element joint="RUArm" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.8,2.2</range>
+                    <spring>0.004,0.3</spring>
+                </dof>
+                <dof name="LFArm_Rotation_X">
+                    <elements>
+                        <element joint="LFArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-2,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LFArm_Rotation_Y">
+                    <elements>
+                        <element joint="LFArm" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-0.7,2.6</range>
+                    <spring>0.004,1</spring>
+                </dof>
+                <dof name="RFArm_Rotation_X">
+                    <elements>
+                        <element joint="RFArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-2,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RFArm_Rotation_Y">
+                    <elements>
+                        <element joint="RFArm" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-0.7,2.6</range>
+                    <spring>0.004,1</spring>
+                </dof>
+                <dof name="LHand_Rotation_X">
+                    <elements>
+                        <element joint="LHand" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,0.8</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LHand_Rotation_Y">
+                    <elements>
+                        <element joint="LHand" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-1.2,0.5</range>
+                    <spring>0.004,-0.3</spring>
+                </dof>
+                <dof name="LHand_Rotation_Z">
+                    <elements>
+                        <element joint="LHand" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.5,2</range>
+                    <spring>0.004,0.25</spring>
+                </dof>
+                <dof name="RHand_Rotation_X">
+                    <elements>
+                        <element joint="RHand" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,0.8</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RHand_Rotation_Y">
+                    <elements>
+                        <element joint="RHand" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1.2,0.5</range>
+                    <spring>0.004,-0.3</spring>
+                </dof>
+                <dof name="RHand_Rotation_Z">
+                    <elements>
+                        <element joint="RHand" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.5,2</range>
+                    <spring>0.004,0.25</spring>
+                </dof>
+                <dof name="LThigh_Rotation_X">
+                    <elements>
+                        <element joint="LThigh" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-3,1</range>
+                    <spring>0.004,-1</spring>
+                </dof>
+                <dof name="LThigh_Rotation_Y">
+                    <elements>
+                        <element joint="LThigh" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-2.5,2.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LThigh_Rotation_Z">
+                    <elements>
+                        <element joint="LThigh" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-2.8,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RThigh_Rotation_X">
+                    <elements>
+                        <element joint="RThigh" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-3,1</range>
+                    <spring>0.004,-1</spring>
+                </dof>
+                <dof name="RThigh_Rotation_Y">
+                    <elements>
+                        <element joint="RThigh" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-2.5,2.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RThigh_Rotation_Z">
+                    <elements>
+                        <element joint="RThigh" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-2.8,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LShin_Rotation_X">
+                    <elements>
+                        <element joint="LShin" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.5,3</range>
+                    <spring>0.0025,0.5</spring>
+                </dof>
+                <dof name="RShin_Rotation_X">
+                    <elements>
+                        <element joint="RShin" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.5,3</range>
+                    <spring>0.0025,0.5</spring>
+                </dof>
+                <dof name="LFoot_Rotation_X">
+                    <elements>
+                        <element joint="LFoot" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,1.2</range>
+                    <spring>0.004,0.2</spring>
+                </dof>
+                <dof name="LFoot_Rotation_Y">
+                    <elements>
+                        <element joint="LFoot" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-1,1.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LFoot_Rotation_Z">
+                    <elements>
+                        <element joint="LFoot" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RFoot_Rotation_X">
+                    <elements>
+                        <element joint="RFoot" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,1.2</range>
+                    <spring>0.004,0.2</spring>
+                </dof>
+                <dof name="RFoot_Rotation_Y">
+                    <elements>
+                        <element joint="RFoot" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RFoot_Rotation_Z">
+                    <elements>
+                        <element joint="RFoot" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LToe_Rotation_X">
+                    <elements>
+                        <element joint="LToe" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RToe_Rotation_X">
+                    <elements>
+                        <element joint="RToe" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Head_Twist">
+                    <elements>
+                        <element joint="Neck" channel="RY" weight="1"/>
+                        <element joint="Head" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Spine_Stretch">
+                    <elements>
+                        <element joint="Ab" channel="TY" weight="1"/>
+                        <element joint="Chest" channel="TY" weight="1"/>
+                    </elements>
+                    <range>-0.02,0.02</range>
+                    <spring>1,0</spring>
+                </dof>
+                <dof name="Neck_Squash">
+                    <elements>
+                        <element joint="Neck" channel="TY" weight="1"/>
+                        <element joint="Head" channel="TY" weight="1"/>
+                    </elements>
+                    <range>-0.04,0.04</range>
+                    <spring>1,0</spring>
+                </dof>
+                <dof name="Spine_Twist">
+                    <elements>
+                        <element joint="Ab" channel="RY" weight="1"/>
+                        <element joint="Chest" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LThumb1_Rotation_Z">
+                    <elements>
+                        <element joint="LThumb1" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.2</spring>
+                </dof>
+                <dof name="LThumb1_Rotation_Y">
+                    <elements>
+                        <element joint="LThumb1" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.4</spring>
+                </dof>
+                <dof name="RThumb1_Rotation_Z">
+                    <elements>
+                        <element joint="RThumb1" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.2</spring>
+                </dof>
+                <dof name="RThumb1_Rotation_Y">
+                    <elements>
+                        <element joint="RThumb1" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.4</spring>
+                </dof>
+                <dof name="LThumb2_Rotation_Z">
+                    <elements>
+                        <element joint="LThumb2" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-0.5,0.5</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="RThumb2_Rotation_Z">
+                    <elements>
+                        <element joint="RThumb2" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.5,0.5</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="LThumb3_Rotation_Z">
+                    <elements>
+                        <element joint="LThumb3" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="RThumb3_Rotation_Z">
+                    <elements>
+                        <element joint="RThumb3" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="LIndex1_Rotation_Y">
+                    <elements>
+                        <element joint="LIndex1" channel="RY" weight="-1"/>
+                        <element joint="LMiddle1" channel="RY" weight="-0.5"/>
+                    </elements>
+                    <range>-0.1,0.7</range>
+                    <spring>0.00065,0.3</spring>
+                </dof>
+                <dof name="LIndex1_Rotation_Z">
+                    <elements>
+                        <element joint="LIndex1" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle1" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing1" channel="RZ" weight="-0.25"/>
+                        <element joint="LIndex2" channel="RZ" weight="-1"/>
+                        <element joint="LIndex3" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle2" channel="RZ" weight="-0.5"/>
+                        <element joint="LMiddle3" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing2" channel="RZ" weight="-0.25"/>
+                        <element joint="LRing3" channel="RZ" weight="-0.25"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+                <dof name="RIndex1_Rotation_Y">
+                    <elements>
+                        <element joint="RIndex1" channel="RY" weight="1"/>
+                        <element joint="RMiddle1" channel="RY" weight="0.5"/>
+                    </elements>
+                    <range>-0.1,0.7</range>
+                    <spring>0.00065,0.3</spring>
+                </dof>
+                <dof name="RIndex1_Rotation_Z">
+                    <elements>
+                        <element joint="RIndex1" channel="RZ" weight="1"/>
+                        <element joint="RMiddle1" channel="RZ" weight="0.5"/>
+                        <element joint="RRing1" channel="RZ" weight="0.25"/>
+                        <element joint="RIndex2" channel="RZ" weight="1"/>
+                        <element joint="RIndex3" channel="RZ" weight="1"/>
+                        <element joint="RMiddle2" channel="RZ" weight="0.5"/>
+                        <element joint="RMiddle3" channel="RZ" weight="0.5"/>
+                        <element joint="RRing2" channel="RZ" weight="0.25"/>
+                        <element joint="RRing3" channel="RZ" weight="0.25"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+                <dof name="LPinky1_Rotation_Y">
+                    <elements>
+                        <element joint="LPinky1" channel="RY" weight="-1"/>
+                        <element joint="LRing1" channel="RY" weight="-0.5"/>
+                    </elements>
+                    <range>-1,0.2</range>
+                    <spring>0.00065,-0.2</spring>
+                </dof>
+                <dof name="LPinky1_Rotation_Z">
+                    <elements>
+                        <element joint="LPinky1" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle1" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing1" channel="RZ" weight="-0.75"/>
+                        <element joint="LPinky2" channel="RZ" weight="-1"/>
+                        <element joint="LPinky3" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle2" channel="RZ" weight="-0.5"/>
+                        <element joint="LMiddle3" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing2" channel="RZ" weight="-0.75"/>
+                        <element joint="LRing3" channel="RZ" weight="-0.75"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+                <dof name="RPinky1_Rotation_Y">
+                    <elements>
+                        <element joint="RPinky1" channel="RY" weight="1"/>
+                        <element joint="RRing1" channel="RY" weight="0.5"/>
+                    </elements>
+                    <range>-1,0.2</range>
+                    <spring>0.00065,-0.2</spring>
+                </dof>
+                <dof name="RPinky1_Rotation_Z">
+                    <elements>
+                        <element joint="RPinky1" channel="RZ" weight="1"/>
+                        <element joint="RMiddle1" channel="RZ" weight="0.5"/>
+                        <element joint="RRing1" channel="RZ" weight="0.75"/>
+                        <element joint="RPinky2" channel="RZ" weight="1"/>
+                        <element joint="RPinky3" channel="RZ" weight="1"/>
+                        <element joint="RMiddle2" channel="RZ" weight="0.5"/>
+                        <element joint="RMiddle3" channel="RZ" weight="0.5"/>
+                        <element joint="RRing2" channel="RZ" weight="0.75"/>
+                        <element joint="RRing3" channel="RZ" weight="0.75"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+            </dofs>
+            <constraints>
+                <constraint name="HeadTop" id="13" joint_name="Head">
+                    <offset>-3.72529e-09,0.215466,-0.0205521</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.917647,0.501961,1</color>
+                </constraint>
+                <constraint name="HeadFront" id="14" joint_name="Head">
+                    <offset>-0.00223789,0.180534,0.116485</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.917647,0.501961,1</color>
+                </constraint>
+                <constraint name="HeadSide" id="15" joint_name="Head">
+                    <offset>-0.105043,0.125421,0.00761482</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="BackTop" id="9" joint_name="Chest">
+                    <offset>0.00076949,0.31251,-0.0534532</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.917647,0.501961,1</color>
+                </constraint>
+                <constraint name="BackLeft" id="10" joint_name="Chest">
+                    <offset>0.0715294,0.00261331,-0.106887</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="BackRight" id="11" joint_name="Chest">
+                    <offset>-0.0752382,-0.00394392,-0.103178</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="Chest" id="12" joint_name="Chest">
+                    <offset>-0.00165822,0.179547,0.150077</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.917647,0.501961,1</color>
+                </constraint>
+                <constraint name="LShoulderTop" id="16" joint_name="LShoulder">
+                    <offset>0.123845,0.158692,0.024018</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LShoulderBack" id="17" joint_name="LShoulder">
+                    <offset>0.0472713,0.0109699,-0.092474</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LUArmHigh" id="19" joint_name="LUArm">
+                    <offset>0.191513,0.0704346,-0.0326526</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LElbowOut" id="18" joint_name="LUArm">
+                    <offset>0.362678,0.0531383,-0.00701839</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LWristOut" id="21" joint_name="LHand">
+                    <offset>-0.000131309,0.0204827,-0.0438205</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LWristIn" id="22" joint_name="LHand">
+                    <offset>0.00999761,0.0204825,0.0456913</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LHandOut" id="20" joint_name="LHand">
+                    <offset>0.0692229,0.0310006,-0.0499639</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RShoulderTop" id="23" joint_name="RShoulder">
+                    <offset>-0.12096,0.152263,0.00800483</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RShoulderBack" id="24" joint_name="RShoulder">
+                    <offset>-0.0221899,0.00907159,-0.103567</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RUArmHigh" id="26" joint_name="RUArm">
+                    <offset>-0.21996,0.0489525,-0.0352228</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RElbowOut" id="25" joint_name="RUArm">
+                    <offset>-0.360164,0.04924,-0.00948241</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RWristOut" id="28" joint_name="RHand">
+                    <offset>0.0128935,0.0205103,-0.0434359</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RWristIn" id="29" joint_name="RHand">
+                    <offset>-0.00751221,0.0205103,0.045447</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RHandOut" id="27" joint_name="RHand">
+                    <offset>-0.0906476,0.0190475,-0.0496218</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.917647,0.501961,1</color>
+                </constraint>
+                <constraint name="WaistLFront" id="5" joint_name="Skelly">
+                    <offset>0.128232,0.0698771,0.113016</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="WaistLBack" id="7" joint_name="Skelly">
+                    <offset>0.0796783,0.130763,-0.113016</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="WaistRBack" id="8" joint_name="Skelly">
+                    <offset>-0.0805695,0.131045,-0.110892</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="WaistRFront" id="6" joint_name="Skelly">
+                    <offset>-0.11652,0.0793566,0.110892</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="LThigh" id="30" joint_name="LThigh">
+                    <offset>0.00172165,-0.165426,0.145538</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LKneeOut" id="31" joint_name="LThigh">
+                    <offset>0.0610412,-0.471773,0.000639603</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LShin" id="32" joint_name="LShin">
+                    <offset>-0.00186926,-0.26368,0.0648911</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LAnkleOut" id="33" joint_name="LShin">
+                    <offset>0.0410904,-0.464319,0.000149421</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LHeel" id="36" joint_name="LFoot">
+                    <offset>-0.0271838,-0.046029,-0.0697686</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LToeIn" id="34" joint_name="LFoot">
+                    <offset>-0.0629326,-0.0463611,0.147822</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LToeTip" id="37" joint_name="LToe">
+                    <offset>-0.0221446,0.0340389,0.0560694</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LToeOut" id="35" joint_name="LFoot">
+                    <offset>0.0629326,-0.0388722,0.125255</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.529412,1</color>
+                </constraint>
+                <constraint name="RThigh" id="38" joint_name="RThigh">
+                    <offset>0.0130298,-0.268554,0.12597</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RKneeOut" id="39" joint_name="RThigh">
+                    <offset>-0.0614417,-0.482437,0.000180129</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RShin" id="40" joint_name="RShin">
+                    <offset>-0.00444345,-0.107027,0.0506312</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RAnkleOut" id="41" joint_name="RShin">
+                    <offset>-0.0411038,-0.457298,0.000180542</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RHeel" id="44" joint_name="RFoot">
+                    <offset>0.0206469,-0.0485806,-0.0830188</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RToeIn" id="42" joint_name="RFoot">
+                    <offset>0.0702971,-0.0521302,0.132743</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RToeTip" id="45" joint_name="RToe">
+                    <offset>0.0268452,0.0359802,0.0468737</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RToeOut" id="43" joint_name="RFoot">
+                    <offset>-0.070297,-0.0447967,0.118163</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.529412,1</color>
+                </constraint>
+            </constraints>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+                <marker_stick origin="WaistLFront" end="WaistLBack" color="222 0 255"/>
+                <marker_stick origin="WaistRFront" end="WaistRBack" color="222 0 255"/>
+                <marker_stick origin="WaistLBack" end="WaistRBack" color="222 0 255"/>
+                <marker_stick origin="WaistRBack" end="WaistLFront" color="222 0 255"/>
+                <marker_stick origin="WaistRFront" end="WaistLBack" color="222 0 255"/>
+                <marker_stick origin="WaistLFront" end="LThigh" color="0 235 255"/>
+                <marker_stick origin="WaistLBack" end="LThigh" color="0 235 255"/>
+                <marker_stick origin="WaistRFront" end="RThigh" color="127 255 0"/>
+                <marker_stick origin="WaistRBack" end="RThigh" color="127 255 0"/>
+                <marker_stick origin="WaistLBack" end="LKneeOut" color="0 235 255"/>
+                <marker_stick origin="WaistRBack" end="RKneeOut" color="127 255 0"/>
+                <marker_stick origin="BackTop" end="BackLeft" color="222 0 255"/>
+                <marker_stick origin="BackTop" end="BackRight" color="222 0 255"/>
+                <marker_stick origin="Chest" end="RShoulderTop" color="127 255 0"/>
+                <marker_stick origin="Chest" end="LShoulderTop" color="0 235 255"/>
+                <marker_stick origin="BackLeft" end="LShoulderBack" color="0 235 255"/>
+                <marker_stick origin="BackRight" end="RShoulderBack" color="127 255 0"/>
+                <marker_stick origin="HeadTop" end="HeadFront" color="222 0 255"/>
+                <marker_stick origin="HeadTop" end="BackTop" color="222 0 255"/>
+                <marker_stick origin="HeadFront" end="HeadSide" color="222 0 255"/>
+                <marker_stick origin="HeadTop" end="HeadSide" color="222 0 255"/>
+                <marker_stick origin="LShoulderBack" end="LShoulderTop" color="0 235 255"/>
+                <marker_stick origin="LShoulderBack" end="LUArmHigh" color="0 235 255"/>
+                <marker_stick origin="LShoulderTop" end="LUArmHigh" color="0 235 255"/>
+                <marker_stick origin="LUArmHigh" end="LElbowOut" color="0 235 255"/>
+                <marker_stick origin="LElbowOut" end="LWristOut" color="0 235 255"/>
+                <marker_stick origin="LElbowOut" end="LWristIn" color="0 235 255"/>
+                <marker_stick origin="LWristOut" end="LWristIn" color="0 235 255"/>
+                <marker_stick origin="LHandOut" end="LWristOut" color="0 235 255"/>
+                <marker_stick origin="LHandOut" end="LWristIn" color="0 235 255"/>
+                <marker_stick origin="RShoulderBack" end="RShoulderTop" color="127 255 0"/>
+                <marker_stick origin="RShoulderBack" end="RUArmHigh" color="127 255 0"/>
+                <marker_stick origin="RShoulderTop" end="RUArmHigh" color="127 255 0"/>
+                <marker_stick origin="RUArmHigh" end="RElbowOut" color="127 255 0"/>
+                <marker_stick origin="RElbowOut" end="RWristOut" color="127 255 0"/>
+                <marker_stick origin="RElbowOut" end="RWristIn" color="127 255 0"/>
+                <marker_stick origin="RWristOut" end="RWristIn" color="127 255 0"/>
+                <marker_stick origin="RHandOut" end="RWristOut" color="127 255 0"/>
+                <marker_stick origin="RHandOut" end="RWristIn" color="127 255 0"/>
+                <marker_stick origin="LThigh" end="LKneeOut" color="0 235 255"/>
+                <marker_stick origin="LKneeOut" end="LShin" color="0 235 255"/>
+                <marker_stick origin="LKneeOut" end="LAnkleOut" color="0 235 255"/>
+                <marker_stick origin="LShin" end="LAnkleOut" color="0 235 255"/>
+                <marker_stick origin="LShin" end="LHeel" color="0 235 255"/>
+                <marker_stick origin="LAnkleOut" end="LHeel" color="0 235 255"/>
+                <marker_stick origin="LToeIn" end="LToeTip" color="0 235 255"/>
+                <marker_stick origin="LHeel" end="LToeIn" color="0 235 255"/>
+                <marker_stick origin="LToeTip" end="LToeIn" color="0 235 255"/>
+                <marker_stick origin="LToeTip" end="LToeOut" color="0 235 255"/>
+                <marker_stick origin="LToeIn" end="LToeOut" color="0 235 255"/>
+                <marker_stick origin="LHeel" end="LToeOut" color="0 235 255"/>
+                <marker_stick origin="RThigh" end="RKneeOut" color="127 255 0"/>
+                <marker_stick origin="RKneeOut" end="RShin" color="127 255 0"/>
+                <marker_stick origin="RKneeOut" end="RAnkleOut" color="127 255 0"/>
+                <marker_stick origin="RShin" end="RAnkleOut" color="127 255 0"/>
+                <marker_stick origin="RShin" end="RHeel" color="127 255 0"/>
+                <marker_stick origin="RAnkleOut" end="RHeel" color="127 255 0"/>
+                <marker_stick origin="RToeIn" end="RToeTip" color="127 255 0"/>
+                <marker_stick origin="RHeel" end="RToeIn" color="127 255 0"/>
+                <marker_stick origin="RToeTip" end="RToeIn" color="127 255 0"/>
+                <marker_stick origin="RToeTip" end="RToeOut" color="127 255 0"/>
+                <marker_stick origin="RToeIn" end="RToeOut" color="127 255 0"/>
+                <marker_stick origin="RHeel" end="RToeOut" color="127 255 0"/>
+            </marker_sticks>
+            <label_graph id="8737e3391809284:dc9e8f7e9e6011ed">
+                <row id="10"/>
+                <row id="11">
+                    <item id="10" mean_sq="0.0216534" inv_var="771080"/>
+                </row>
+                <row id="9">
+                    <item id="10" mean_sq="0.103885" inv_var="176888"/>
+                    <item id="11" mean_sq="0.108411" inv_var="172998"/>
+                </row>
+                <row id="12">
+                    <item id="10" mean_sq="0.102755" inv_var="178039"/>
+                    <item id="11" mean_sq="0.103278" inv_var="174223"/>
+                    <item id="9" mean_sq="0.0591296" inv_var="311674"/>
+                </row>
+                <row id="17">
+                    <item id="10" mean_sq="0.0294535" inv_var="5247.02"/>
+                    <item id="11" mean_sq="0.0575683" inv_var="2852.38"/>
+                    <item id="9" mean_sq="0.0304531" inv_var="5838.77"/>
+                    <item id="12" mean_sq="0.067008" inv_var="35313.8"/>
+                </row>
+                <row id="19">
+                    <item id="10" mean_sq="0.116536" inv_var="361.297"/>
+                    <item id="11" mean_sq="0.204771" inv_var="401.883"/>
+                    <item id="9" mean_sq="0.106084" inv_var="429.804"/>
+                    <item id="12" mean_sq="0.132126" inv_var="531.676"/>
+                    <item id="17" mean_sq="0.05957" inv_var="3522.77"/>
+                </row>
+                <row id="24">
+                    <item id="10" mean_sq="0.0464798" inv_var="3146.39"/>
+                    <item id="11" mean_sq="0.0321858" inv_var="4645.26"/>
+                    <item id="9" mean_sq="0.0283953" inv_var="5814.98"/>
+                    <item id="12" mean_sq="0.0683309" inv_var="49611.7"/>
+                    <item id="17" mean_sq="0.024604" inv_var="3299.49"/>
+                    <item id="19" mean_sq="0.147745" inv_var="442.668"/>
+                </row>
+                <row id="16">
+                    <item id="10" mean_sq="0.122168" inv_var="1645.59"/>
+                    <item id="11" mean_sq="0.171813" inv_var="4775.36"/>
+                    <item id="9" mean_sq="0.0340712" inv_var="1907.65"/>
+                    <item id="12" mean_sq="0.0635497" inv_var="1527.41"/>
+                    <item id="17" mean_sq="0.0412804" inv_var="432199"/>
+                    <item id="19" mean_sq="0.0359899" inv_var="1796.83"/>
+                    <item id="24" mean_sq="0.0883651" inv_var="1127.78"/>
+                </row>
+                <row id="23">
+                    <item id="10" mean_sq="0.157945" inv_var="3595.16"/>
+                    <item id="11" mean_sq="0.116096" inv_var="1435.33"/>
+                    <item id="9" mean_sq="0.0321831" inv_var="2001.26"/>
+                    <item id="12" mean_sq="0.0642673" inv_var="1581.79"/>
+                    <item id="17" mean_sq="0.0907569" inv_var="1146.93"/>
+                    <item id="24" mean_sq="0.0427333" inv_var="404380"/>
+                    <item id="16" mean_sq="0.106642" inv_var="298.879"/>
+                </row>
+                <row id="26">
+                    <item id="10" mean_sq="0.210496" inv_var="297.476"/>
+                    <item id="11" mean_sq="0.121015" inv_var="280.769"/>
+                    <item id="9" mean_sq="0.128736" inv_var="336.375"/>
+                    <item id="12" mean_sq="0.148705" inv_var="453.242"/>
+                    <item id="17" mean_sq="0.182664" inv_var="438.729"/>
+                    <item id="24" mean_sq="0.0847665" inv_var="2283.06"/>
+                    <item id="23" mean_sq="0.048097" inv_var="1325.22"/>
+                </row>
+                <row id="7">
+                    <item id="10" mean_sq="0.031096" inv_var="1067.8"/>
+                    <item id="11" mean_sq="0.049087" inv_var="675.865"/>
+                    <item id="12" mean_sq="0.179636" inv_var="268.569"/>
+                    <item id="17" mean_sq="0.108548" inv_var="255.193"/>
+                </row>
+                <row id="8">
+                    <item id="10" mean_sq="0.0513732" inv_var="682.785"/>
+                    <item id="11" mean_sq="0.0288648" inv_var="1111.59"/>
+                    <item id="12" mean_sq="0.176485" inv_var="252.301"/>
+                    <item id="7" mean_sq="0.0256987" inv_var="725114"/>
+                </row>
+                <row id="6">
+                    <item id="10" mean_sq="0.119052" inv_var="581.31"/>
+                    <item id="11" mean_sq="0.0865471" inv_var="444.666"/>
+                    <item id="7" mean_sq="0.0913611" inv_var="206199"/>
+                    <item id="8" mean_sq="0.0531971" inv_var="350853"/>
+                </row>
+                <row id="5">
+                    <item id="10" mean_sq="0.0956682" inv_var="378.146"/>
+                    <item id="11" mean_sq="0.124841" inv_var="555.784"/>
+                    <item id="7" mean_sq="0.0572592" inv_var="333359"/>
+                    <item id="8" mean_sq="0.097553" inv_var="187694"/>
+                    <item id="6" mean_sq="0.060033" inv_var="323454"/>
+                </row>
+                <row id="30">
+                    <item id="7" mean_sq="0.150553" inv_var="11725.1"/>
+                    <item id="8" mean_sq="0.182861" inv_var="802.931"/>
+                    <item id="6" mean_sq="0.109537" inv_var="445.178"/>
+                    <item id="5" mean_sq="0.0574886" inv_var="1744.78"/>
+                </row>
+                <row id="31">
+                    <item id="7" mean_sq="0.375955" inv_var="500.123"/>
+                    <item id="5" mean_sq="0.303005" inv_var="464.727"/>
+                    <item id="30" mean_sq="0.118446" inv_var="161032"/>
+                </row>
+                <row id="18">
+                    <item id="17" mean_sq="0.168407" inv_var="1200.51"/>
+                    <item id="19" mean_sq="0.0302252" inv_var="612035"/>
+                    <item id="16" mean_sq="0.118822" inv_var="488.116"/>
+                </row>
+                <row id="25">
+                    <item id="24" mean_sq="0.186461" inv_var="997.511"/>
+                    <item id="23" mean_sq="0.118121" inv_var="496.921"/>
+                    <item id="26" mean_sq="0.0203404" inv_var="876970"/>
+                </row>
+                <row id="38">
+                    <item id="7" mean_sq="0.240337" inv_var="403.858"/>
+                    <item id="8" mean_sq="0.209906" inv_var="3615.69"/>
+                    <item id="6" mean_sq="0.121541" inv_var="944.013"/>
+                </row>
+                <row id="39">
+                    <item id="8" mean_sq="0.387155" inv_var="471.059"/>
+                    <item id="6" mean_sq="0.326251" inv_var="501.7"/>
+                    <item id="38" mean_sq="0.0670706" inv_var="280661"/>
+                </row>
+                <row id="40">
+                    <item id="8" mean_sq="0.51419" inv_var="346.277"/>
+                    <item id="38" mean_sq="0.100767" inv_var="2539.97"/>
+                    <item id="39" mean_sq="0.0148591" inv_var="896890"/>
+                </row>
+                <row id="41">
+                    <item id="38" mean_sq="0.44848" inv_var="422.601"/>
+                    <item id="39" mean_sq="0.198942" inv_var="90230.6"/>
+                    <item id="40" mean_sq="0.126677" inv_var="151666"/>
+                </row>
+                <row id="44">
+                    <item id="39" mean_sq="0.257852" inv_var="906.439"/>
+                    <item id="40" mean_sq="0.177189" inv_var="1652.92"/>
+                    <item id="41" mean_sq="0.013389" inv_var="84273.3"/>
+                </row>
+                <row id="43">
+                    <item id="39" mean_sq="0.255396" inv_var="339.992"/>
+                    <item id="40" mean_sq="0.1667" inv_var="539.716"/>
+                    <item id="41" mean_sq="0.0171987" inv_var="47663.1"/>
+                    <item id="44" mean_sq="0.0487936" inv_var="382298"/>
+                </row>
+                <row id="42">
+                    <item id="40" mean_sq="0.176153" inv_var="472.884"/>
+                    <item id="41" mean_sq="0.0323939" inv_var="37702.8"/>
+                    <item id="44" mean_sq="0.049031" inv_var="360482"/>
+                    <item id="43" mean_sq="0.020052" inv_var="869650"/>
+                </row>
+                <row id="45">
+                    <item id="41" mean_sq="0.0454257" inv_var="9059.88"/>
+                    <item id="44" mean_sq="0.0805292" inv_var="15360.8"/>
+                    <item id="43" mean_sq="0.0164801" inv_var="215145"/>
+                    <item id="42" mean_sq="0.00701927" inv_var="526953"/>
+                </row>
+                <row id="32">
+                    <item id="30" mean_sq="0.326169" inv_var="449.396"/>
+                    <item id="31" mean_sq="0.0768048" inv_var="238023"/>
+                </row>
+                <row id="33">
+                    <item id="30" mean_sq="0.606849" inv_var="318.796"/>
+                    <item id="31" mean_sq="0.214627" inv_var="92652.3"/>
+                    <item id="32" mean_sq="0.0463233" inv_var="380664"/>
+                </row>
+                <row id="36">
+                    <item id="31" mean_sq="0.265413" inv_var="1245.79"/>
+                    <item id="32" mean_sq="0.0762933" inv_var="8914.87"/>
+                    <item id="33" mean_sq="0.0111654" inv_var="102853"/>
+                </row>
+                <row id="35">
+                    <item id="31" mean_sq="0.260052" inv_var="328.786"/>
+                    <item id="32" mean_sq="0.062741" inv_var="1598.62"/>
+                    <item id="33" mean_sq="0.0177022" inv_var="45265.3"/>
+                    <item id="36" mean_sq="0.0462394" inv_var="396322"/>
+                </row>
+                <row id="34">
+                    <item id="32" mean_sq="0.0697034" inv_var="1225.38"/>
+                    <item id="33" mean_sq="0.0340935" inv_var="30800.6"/>
+                    <item id="36" mean_sq="0.0486177" inv_var="335274"/>
+                    <item id="35" mean_sq="0.0164281" inv_var="1.07527e+06"/>
+                </row>
+                <row id="37">
+                    <item id="32" mean_sq="0.0746164" inv_var="649.019"/>
+                    <item id="33" mean_sq="0.0483358" inv_var="8807.55"/>
+                    <item id="36" mean_sq="0.0777519" inv_var="16088"/>
+                    <item id="35" mean_sq="0.0144236" inv_var="178000"/>
+                    <item id="34" mean_sq="0.00577201" inv_var="609954"/>
+                </row>
+                <row id="21">
+                    <item id="19" mean_sq="0.174626" inv_var="2253.19"/>
+                    <item id="18" mean_sq="0.0630487" inv_var="9498.12"/>
+                </row>
+                <row id="22">
+                    <item id="19" mean_sq="0.187646" inv_var="2767.24"/>
+                    <item id="18" mean_sq="0.0692459" inv_var="8256.21"/>
+                    <item id="21" mean_sq="0.00812405" inv_var="2.03849e+06"/>
+                </row>
+                <row id="20">
+                    <item id="19" mean_sq="0.232702" inv_var="1163.08"/>
+                    <item id="18" mean_sq="0.0999312" inv_var="4469.27"/>
+                    <item id="21" mean_sq="0.004985" inv_var="3.27002e+06"/>
+                    <item id="22" mean_sq="0.0127635" inv_var="1.34754e+06"/>
+                </row>
+                <row id="28">
+                    <item id="26" mean_sq="0.141331" inv_var="2499.5"/>
+                    <item id="25" mean_sq="0.0582494" inv_var="10146.4"/>
+                </row>
+                <row id="29">
+                    <item id="26" mean_sq="0.160945" inv_var="3577.72"/>
+                    <item id="25" mean_sq="0.0687952" inv_var="8801.88"/>
+                    <item id="28" mean_sq="0.00835084" inv_var="2.15706e+06"/>
+                </row>
+                <row id="27">
+                    <item id="26" mean_sq="0.224473" inv_var="1302.02"/>
+                    <item id="25" mean_sq="0.115223" inv_var="4826.64"/>
+                    <item id="28" mean_sq="0.0107612" inv_var="1.57808e+06"/>
+                    <item id="29" mean_sq="0.0159478" inv_var="1.16681e+06"/>
+                </row>
+                <row id="13">
+                    <item id="9" mean_sq="0.088646" inv_var="187.52"/>
+                </row>
+                <row id="14">
+                    <item id="9" mean_sq="0.100973" inv_var="224.321"/>
+                    <item id="13" mean_sq="0.0200352" inv_var="962886"/>
+                </row>
+                <row id="15">
+                    <item id="9" mean_sq="0.0609452" inv_var="356.6"/>
+                    <item id="13" mean_sq="0.0199637" inv_var="907820"/>
+                    <item id="14" mean_sq="0.0254676" inv_var="705166"/>
+                </row>
+            </label_graph>
+        </skeleton>
+    </node_assets>
+</profile>
