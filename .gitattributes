@@ -1,2 +1,4 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.tak filter=lfs diff=lfs merge=lfs -text
 /2023-01-27_Group_2/ROM[[:space:]]Skelly[[:space:]]2023-01-27_001.tak filter=lfs diff=lfs merge=lfs -text
 /2023-01-27_Group_2/Skelly[[:space:]]2023-01-27[[:space:]]ROM.tak filter=lfs diff=lfs merge=lfs -text
